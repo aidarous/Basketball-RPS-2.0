@@ -18,3 +18,9 @@ let center = {
     "move2" : "pick and roll",
     "move3" : "block"
 } 
+
+
+let playerScore = 0;
+
+let opponentScore = 0;
+
