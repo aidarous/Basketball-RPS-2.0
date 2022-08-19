@@ -26,3 +26,5 @@ let opponentScore = 0;
 let displayOpponentScore = document.getElementById('opponent-score');
 
 
+let positions = ['guard','forward','center'];
+let positionSelector = positions[Math.floor(Math.random()*positions.length)]
