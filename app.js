@@ -21,6 +21,8 @@ let center = {
 
 
 let playerScore = 0;
-
+let displayPlayerScore = document.getElementById('player-score');
 let opponentScore = 0;
+let displayOpponentScore = document.getElementById('opponent-score');
+
 
