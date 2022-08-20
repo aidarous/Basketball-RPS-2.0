@@ -1,15 +1,12 @@
 let guard = {
     "position" : "guard",
-    "move1" : "shoot",
-    "move2" : "pass",
-    "move3" : "steal"
+    "moves" : ["shoot", 'pass', 'steal'],
+    
     }
 
 let forward = {
     "position" : "forward",
-    "move1" : "catch and shoot",
-    "move2" : "cut to basket",
-    "move3" : "help defense"
+    "moves" : ["catch and shoot", "cut to basket", "help defense"]
     }
 
 let center = {
@@ -28,3 +25,7 @@ let displayOpponentScore = document.getElementById('opponent-score');
 
 let positions = ['guard','forward','center'];
 let positionSelector = positions[Math.floor(Math.random()*positions.length)]
+
+let guardMoveSelector = guard.moves[Math.floor(Math.random()*guard.moves.length)];
+let forwardMoveSelector = forward.moves[Math.floor(Math.random()*forward.moves.length)] ;
+let centerMoveSelector ;
