@@ -1,0 +1,13 @@
+body{
+    background: url('/assets/knickscourt.PNG') no-repeat;
+    
+}
+
+.scoreboard{
+    display: flex;
+    justify-content: space-around;
+    border: solid gray;
+    background-color: black;
+    width: 250px;
+    margin: auto;   
+}
