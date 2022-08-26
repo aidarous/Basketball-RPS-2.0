@@ -1,8 +1,18 @@
+@font-face{
+    font-family: 'pixel-font';
+    src: url('./VT323-Regular.ttf')
+}
+
 body{
     background: url('/assets/knickscourt.PNG') no-repeat;
     
 }
-
+h1{
+    text-align: center;
+    color: white;
+    font-family: "pixel-font";
+    font-size: 60px;
+}
 .scoreboard{
     display: flex;
     justify-content: space-around;
